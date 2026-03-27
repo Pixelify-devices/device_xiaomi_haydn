@@ -2,7 +2,7 @@ echo "Clonning mentioned repos"
 
 # Common device tree (chipset tree)
 if [ ! -d device/xiaomi/sm8350-common ]; then
-   git clone https://github.com/Never-Alive/device_xiaomi_sm8350-common -b lineage-23.2 device/xiaomi/sm8350-common
+   git clone https://github.com/Never-Alive/device_xiaomi_sm8350-common -b ascp device/xiaomi/sm8350-common
 fi
 
 # Kernel
@@ -38,10 +38,10 @@ fi
 
 # Xiaomi hardware tree
 if [ ! -d hardware/xiaomi/* ]; then
-   git clone --depth=1 https://github.com/LineageOS/android_hardware_xiaomi -b lineage-23.2 hardware/xiaomi
+   git clone --depth=1 https://github.com/PixelOS-AOSP/android_hardware_xiaomi hardware/xiaomi
 fi
 
-# Xiaomi hardware tree
+# Gamebar
 if [ ! -d packages/apps/GameBar/* ]; then
    git clone --depth=1 https://github.com/Never-Alive/packages_apps_GameBar -b lineage-23.2 packages/apps/GameBar
 fi
