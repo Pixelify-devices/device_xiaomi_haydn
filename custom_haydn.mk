@@ -17,7 +17,7 @@ PRODUCT_MODEL := M2012K11G
 PRODUCT_NAME := custom_haydn
 
 ASCP_MAINTAINER := Lucifer
-WITH_BCR := true
+WITH_BCR := false
 WITH_REVANCED := false
 ASCP_OFFICIAL := true
 

@@ -492,6 +492,11 @@ vendor/etc/camera/xiaomi/thirdpartydualbokehyuvsnapshot.json
 vendor/etc/camera/xiaomi/thirdpartyjpegsnapshot.json
 vendor/etc/camera/xiaomi/thirdpartysnapshot.json
 
+# Camera (megvii)
+vendor/etc/camera/megviifacepp_0_5_2_model
+vendor/lib64/libMegviiFacepp-0.5.2.so
+vendor/lib64/libmegface.so
+
 # Charger (Mi Turbo Charge)
 vendor/bin/batterysecret
 
